@@ -4,7 +4,7 @@ import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.c
 
 const firebaseConfig = {
   apiKey: "AIzaSyDEdVWdBesQMW_6p_iXtlpud2yhTXvAhK8",
-  authDomain: "studio-5627132509-81823.firebaseapp.com",
+  authDomain: "chatbox-chats-default-rtdb.firebaseio.com",
   projectId: "chatbox-chats",
   storageBucket: "chatbox-chats.appspot.com",
   messagingSenderId: "10200860576",
