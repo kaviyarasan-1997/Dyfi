@@ -3,12 +3,12 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase
 import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAn4ey1edpQ2cV9PBwadsrAkJFST9ztaXE",
+  apiKey: "AIzaSyDEdVWdBesQMW_6p_iXtlpud2yhTXvAhK8",
   authDomain: "studio-5627132509-81823.firebaseapp.com",
-  projectId: "studio-5627132509-81823",
-  storageBucket: "studio-5627132509-81823.firebasestorage.app",
-  messagingSenderId: "665180709342",
-  appId: "1:665180709342:web:7cfb3270e69ce2bc3abd4f"
+  projectId: "chatbox-chats",
+  storageBucket: "chatbox-chats.appspot.com",
+  messagingSenderId: "10200860576",
+  appId: "1:10200860576:android:262315d86f6d1732ddc6c5"
 };
 
 const app = initializeApp(firebaseConfig);
