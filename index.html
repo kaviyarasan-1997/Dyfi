@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Political Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Daily Political Updates</h1>
+    <form id="postForm">
+      <textarea id="postContent" placeholder="Write your political update..."></textarea>
+      <button type="submit">Post</button>
+    </form>
+  </header>
+  <main>
+    <h2>Recent Posts</h2>
+    <div id="postsContainer"></div>
+  </main>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
